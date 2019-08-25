@@ -1,0 +1,46 @@
+body{
+    overflow: hidden;
+}
+
+.fullheight{
+    height:100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.toc{
+    width: 210px;
+    height: 100%;
+    flex: 0 0 auto;
+}
+
+.noround{
+    border-radius: 0px;
+}
+
+.contents{
+    width: calc(100% - 220px);
+    height: 100%;
+    overflow: auto;
+    flex: 1 1 auto;
+    padding: 3.5em 1em 1em;
+}
+
+.ui.full.modal{
+    width: 65%;
+    margin:0;
+}
+
+.ui.full.image{
+    width: 100%;
+}
+
+.testdiv{
+    width: 300px;
+    height: 1000px;
+}
